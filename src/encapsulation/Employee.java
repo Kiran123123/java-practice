@@ -16,6 +16,7 @@ public class Employee {
         this.address = address;
     }
 
+
     // Getters and setters
     public int getId() {
         return id;
@@ -56,6 +57,18 @@ public class Employee {
 //    public void setAddress(String address) {
 //        this.address = address;
 //    }
+
+    public void Showdetails(){
+        System.out.println("ID "+id);
+        System.out.println("Name : "+name);
+        System.out.println("Phone Number "+phoneNo);
+        System.out.println("Email ID "+emailId);
+        System.out.println("Address "+address);
+
+
+
+            }
+
 
     public static void main(String[] args) {
         // Hardcoded employee details
