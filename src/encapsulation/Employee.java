@@ -17,46 +17,47 @@ public class Employee {
     }
 
 
+
     // Getters and setters
     public int getId() {
         return id;
     }
 
-//    public void setId(int id) {
-//        this.id = id;
-//    }
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
     }
 
-//    public void setName(String name) {
-//        this.name = name;
-//    }
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getPhoneNo() {
         return phoneNo;
     }
 //
-//    public void setPhoneNo(String phoneNo) {
-//        this.phoneNo = phoneNo;
-//    }
+    public void setPhoneNo(String phoneNo) {
+        this.phoneNo = phoneNo;
+    }
 
     public String getEmailId() {
         return emailId;
     }
 
-//    public void setEmailId(String emailId) {
-//        this.emailId = emailId;
-//    }
+    public void setEmailId(String emailId) {
+        this.emailId = emailId;
+    }
 
     public String getAddress() {
         return address;
     }
 
-//    public void setAddress(String address) {
-//        this.address = address;
-//    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public void Showdetails(){
         System.out.println("ID "+id);
@@ -80,6 +81,9 @@ public class Employee {
 
         // Create an employee object
         Employee employee = new Employee(id, name, phoneNo, emailId, address);
+       // Employee employee1 = new Employee(110,"kiran", "875", "fhg@gmail.com", "brampton");
+        employee.setId(111);
+        employee.setName("kiran");
 
         // Print employee details
         System.out.println("Employee ID: " + employee.getId());
