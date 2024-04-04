@@ -1,3 +1,5 @@
+//Write a program to store 5 employee records and find if a given employee is present in it based on a name.
+
 package encapsulation;
 
 public class EmployeeRecordWithName {

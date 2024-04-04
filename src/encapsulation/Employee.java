@@ -16,8 +16,6 @@ public class Employee {
         this.address = address;
     }
 
-
-
     // Getters and setters
     public int getId() {
         return id;
@@ -59,18 +57,6 @@ public class Employee {
         this.address = address;
     }
 
-    public void Showdetails(){
-        System.out.println("ID "+id);
-        System.out.println("Name : "+name);
-        System.out.println("Phone Number "+phoneNo);
-        System.out.println("Email ID "+emailId);
-        System.out.println("Address "+address);
-
-
-
-            }
-
-
     public static void main(String[] args) {
         // Hardcoded employee details
         int id = 101;
@@ -82,8 +68,8 @@ public class Employee {
         // Create an employee object
         Employee employee = new Employee(id, name, phoneNo, emailId, address);
        // Employee employee1 = new Employee(110,"kiran", "875", "fhg@gmail.com", "brampton");
-        employee.setId(111);
-        employee.setName("kiran");
+        //employee.setId(111);
+        //employee.setName("kiran");
 
         // Print employee details
         System.out.println("Employee ID: " + employee.getId());
@@ -91,5 +77,13 @@ public class Employee {
         System.out.println("Employee Phone No: " + employee.getPhoneNo());
         System.out.println("Employee Email ID: " + employee.getEmailId());
         System.out.println("Employee Address: " + employee.getAddress());
+    }
+
+    public void Showdetails(){
+        System.out.println("ID "+id);
+        System.out.println("Name : "+name);
+        System.out.println("Phone Number "+phoneNo);
+        System.out.println("Email ID "+emailId);
+        System.out.println("Address "+address);
     }
 }
